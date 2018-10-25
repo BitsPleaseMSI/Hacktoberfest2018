@@ -8,7 +8,7 @@
 int main () {
         char * foo = "hello";
         //complete the code
-        char * bar = malloc(sizeof(char)*strlen(foo+1));
+        char * bar = ;
         strcpy(bar, foo);
         printf("%s",bar);
         return 0;
