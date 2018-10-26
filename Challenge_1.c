@@ -4,11 +4,12 @@
 
 #include <stdlib.h>
 #include <string.h>
+#include <stdio.h>
 
-int main () {
+int main (int argc, char *argv[]) {
         char * foo = "hello";
         //complete the code
-        char * bar = ;
+        char * bar = malloc(strlen(foo));
         strcpy(bar, foo);
         printf("%s",bar);
         return 0;

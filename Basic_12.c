@@ -2,6 +2,7 @@
 // Write code to find cube of a number
 // Code Below
 #include<stdio.h>
+
 void main()
 { int n,c;
   printf("Enter the number : ");
