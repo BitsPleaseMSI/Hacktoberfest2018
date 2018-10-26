@@ -17,3 +17,4 @@ int main()
     printf("The factorial of number is 5 is : %d\n",factorial(5));
     return 0;
 }
+
