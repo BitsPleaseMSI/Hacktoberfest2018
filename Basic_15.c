@@ -8,5 +8,4 @@ void main(){
  int x=344234345,y=324234234,z;
   z = x+y;
   printf("%d",z);
-    
 }

@@ -1,6 +1,7 @@
 // TASK
 // Write code to find if the number is positive or negative
 // Code Below
+
 #include<stdio.h>
 
 void main(){
@@ -11,5 +12,4 @@ void main(){
     printf("the given no is positive");
   else
     printf("the given no is negative")
-   
 }

@@ -7,15 +7,15 @@ int main(){
    char str[25];
    int i,j,k;
    printf("Enter the string: ");
-   scanf("%s",str);
+   gets(str);
 
-   for(i=0;i<=strlen(str);i++){
-     j = str[i];
-      if(j>65&&j<90)
-     {
-         j = j+32;
-         str[i] = j;
-      }
+
+   for(i=0;i<=strlen(str);i++)
+   {
+     //CODE
+      str[i]=str[i]+32;
+
+
    }
    printf("\nLower Case String is: %s",str);
    return 0;

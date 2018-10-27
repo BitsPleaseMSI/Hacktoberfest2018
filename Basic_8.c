@@ -1,36 +1,25 @@
-// To add 2d matrix
+// TASK
+// Write code to add two 2D Matrix
+// Code Below
 
-#include<iostream.h>
-#include<conio.h>
 #include<stdio.h>
 
 void main()
-{
-  in a[2][2],b[2][2],h[2][2];
-cout<<"enter first 2*2 matrix";
-int c,d,e,f,g;
-  for(c=0;c<2;c++)
   {
-  for(d=0;d<2;d++)
-  {
-  cin>>a[c][d];
-  }
-  }
-cout<<"enter second 2*2 matrix";
-   for(c=0;c<2;c++)
-  {
-  for(d=0;d<2;d++)
-  {
-  cin>>b[c][d];
-  }
-  }
+   int a[2][2],b[2][2],c[2][2],i,j;
+  for(i=0;i<2;++i)
+    for(j=0;j<2;++j)
+      scanf("%d",a[i][j]);
   
-  cout<<"sum of both matrix is";
-   for(c=0;c<2;c++)
-  {
-  for(d=0;d<2;d++)
-  {
-  cin>>h[c][d];
-  }
-  }
+for(i=0;i<2;++i)
+    for(j=0;j<2;++j)
+      scanf("%d",b[i][j]);
+  //Code
+  for(i=0;i<2;++i)
+    for(j=0;j<2;++j)
+      c[i][j]=a[i][j]+b[i][j];
+  
+for(i=0;i<2;++i)
+    for(j=0;j<2;++j)
+      printf("%d",c[i][j]);
 }

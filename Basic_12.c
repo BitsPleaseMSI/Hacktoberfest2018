@@ -2,7 +2,7 @@
 // Write code to find cube of a number
 // Code Below
 #include<stdio.h>
-#include<math.h>
+
 void main()
 {
    int n;
