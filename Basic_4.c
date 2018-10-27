@@ -8,7 +8,7 @@ void main()
   int a[10],min;
   for(i=0,i<10,++i)
     scanf("%d",a[i]);
-  
+  //code
      for (i=0; i<8; i++) 
     { 
         min=a[i]; 
