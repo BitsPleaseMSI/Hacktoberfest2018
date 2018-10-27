@@ -3,16 +3,13 @@
 // Code Below
 
 #include<stdio.h>
-#include<conio.h>
 
-void main()
-{
-  int a;
-printf("enter the number");
-scanf(%d,&a);
-  if(a>0)
-    printf("number is positive");
+void main(){
+ int x,y;
+  printf("Enter a no");
+  scanf("%d",&x);
+  if(x>0)
+    printf("the given no is positive");
   else
-    printf("number is negative");
-  getch();
+    printf("the given no is negative")
 }

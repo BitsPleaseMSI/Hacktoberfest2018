@@ -4,10 +4,10 @@
 #include<stdio.h>
 
 void main()
-{ int n,c;
-  printf("Enter the number : ");
-  scanf("%d",n);
-  
-  c=n*n*n;
-  printf("Cube of the %d is %d ",n,c);
-}
+{
+   int n;
+  long c;
+  scanf("%d",&n);
+  c=pow(n,3);
+  printf("%ld",c);
+} 

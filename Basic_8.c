@@ -1,6 +1,7 @@
 // TASK
 // Write code to add two 2D Matrix
 // Code Below
+
 #include<stdio.h>
 
 void main()
@@ -21,5 +22,4 @@ for(i=0;i<2;++i)
 for(i=0;i<2;++i)
     for(j=0;j<2;++j)
       printf("%d",c[i][j]);
-  }
-
+}
