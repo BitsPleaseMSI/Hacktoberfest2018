@@ -1,18 +1,19 @@
-// to reverse a string
-
-
-void main()
-{
-int a,b,c;
-  char d[20],e[20];
-  cout<<"enter the string";
-  gets(d);
-  
-  a = strlen(d);
-  for(b=a;b>=0;b--)
-  {
-  e[b]=d[b-a];
-  }
-  cout<<"reversed string is";
-  cout<<e;
-}
+// TASK
+// Write code to reverse a string.
+// Code Below
+    #include <stdio.h>
+    #include <string.h>
+     
+    int main()
+    {
+       char arr[100];
+     
+       printf("Enter a string to reverse\n");
+       gets(arr);
+     
+       strrev(arr);
+     
+       printf("Reverse of the string is \n%s\n", arr);
+     
+       return 0;
+    }
