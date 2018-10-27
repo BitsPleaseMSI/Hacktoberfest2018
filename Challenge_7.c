@@ -7,12 +7,6 @@ int main()
     printf("Please input an integer number:\n");
     scanf("%d",&number);
 
-    // alternative test using bitwise AND: ((number & 1) == 0)
-
-    // requested test: 
-    //   drop last bit by shifting one position to the right
-    //   then shift back which sets the 0th bit to 0 and 
-    //   compare the shifted value with the original value
     (((number >> 1) << 1) == number) ? printf("%d is an EVEN Number.", number) :  printf("%d is an ODD Number.",number);
 
     // Hint:
