@@ -4,13 +4,17 @@
 
 #include <stdio.h>
 
-int factorial(int num){
-
+unsigned int factorial(unsigned int num){
+  if (num > 1)
+    return num * factorial(num - 1);
+  else
+    return 1;
 }
 
 int main()
 {
-    int num = 10;
+    unsigned int num = 10;
     printf("The factorial of number is 5 is : %d\n",factorial(5));
     return 0;
 }
+

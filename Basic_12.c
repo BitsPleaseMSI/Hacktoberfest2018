@@ -2,14 +2,12 @@
 // Write code to find cube of a number
 // Code Below
 #include<stdio.h>
-#include<conio.h>
+#include<math.h>
 void main()
 {
-   clrscr();
-   int a,b=0,c;
-   printf("enter the no to take out its cube = ");
-   scanf("%d",&a);
-   b=a*a*a;
-   printf("cube of no. is = %d",b);
-  getch();
-}  
+   int n;
+  long c;
+  scanf("%d",&n);
+  c=pow(n,3);
+  printf("%ld",c);
+} 
