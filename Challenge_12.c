@@ -10,7 +10,9 @@ int main()
     scanf("%d",&n);
 
     //CODE
-
+    for(count=1;count<=n;++count)
+    { sum=sum+count; }
+    //Code Finished
     printf("Sum of first %d natural numbers is: %d",n, sum);
 
     return 0;
