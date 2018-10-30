@@ -7,7 +7,7 @@ int main()
     printf("Please input an integer number:\n");
     scanf("%d",&number);
 
-    () ? printf("%d is an EVEN Number.", number) :  printf("%d is an ODD Number.",number);
+    (((number >> 1) << 1) == number) ? printf("%d is an EVEN Number.", number) :  printf("%d is an ODD Number.",number);
 
     // Hint:
     //
