@@ -1,6 +1,11 @@
 # Hacktoberfest2018
 Repository for Hacktoberfest 2018
 
+Correct and complete the code
+Create a PR.
+
+Forget the rest! We'll take care of that!
+
 ## What to do?
 
 1. Pick up any challenge
@@ -10,3 +15,4 @@ Repository for Hacktoberfest 2018
 5. Congrats! That's it.
 
 Celebrating Open Source Contribution
+
