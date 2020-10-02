@@ -9,9 +9,10 @@ int main()
     printf("Enter the value of n positive integer: ");
     scanf("%d",&n);
 
-    //CODE
-
+    //code
+    
+    sum=(n*(n+1))/2;
+    
     printf("Sum of first %d natural numbers is: %d",n, sum);
-
     return 0;
 }
