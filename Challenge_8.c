@@ -8,9 +8,9 @@ struct marks{
   int m:2;
 };
 void main(){
-  int x = ;
-  int y = ;
-  int z = ;
+  int x =2 ;
+  int y =2 ;
+  int z =1 ;
   struct marks s={x,y,z};
   printf("%d %d %d",s.p,s.c,s.m);
 }
