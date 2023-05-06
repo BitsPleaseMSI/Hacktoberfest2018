@@ -11,5 +11,5 @@ void main(){
   if(x>0)
     printf("the given no is positive");
   else
-    printf("the given no is negative")
+    printf("the given no is negative");
 }

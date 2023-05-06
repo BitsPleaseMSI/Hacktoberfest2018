@@ -16,7 +16,7 @@ void main()
           if (a[j] <min) 
           { swap=a[j];
             a[j]=min;
-           f=j 
+           f=j;
           }
        a[i]=a[f];
     } 
